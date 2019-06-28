@@ -28,9 +28,9 @@ form = """<!DOCTYPE html>
         <form action = "/" method = "post">
             <label for = "rotate-by"> 
                 Rotate by: 
-                <input id = "rot" type="text" name = "q" /> 
+                <input id = "rot" type="text" name = "q" value ="0"/> 
             </label>
-            <textarea name = "text"> {0} </textarea>
+            <textarea name = "text">{0}</textarea>
             <input type = "submit" value="Submit Query" />
     
       </form>
